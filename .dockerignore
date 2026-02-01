@@ -1,3 +1,21 @@
-__pychache__
-.env
-/venv
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+myenv/
+.env/
+
+# Git
+.git
+.gitignore
+
+# OS
+.DS_Store
+
+# Tests & docs (optional)
+tests/
+README.md
